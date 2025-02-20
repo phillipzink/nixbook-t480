@@ -1,6 +1,6 @@
 { config, pkgs, ... }: {
   imports = [
-      <nixoshardware/lenovo/thinkpad/t480>
+      <nixos-hardware/lenovo/thinkpad/t480>
   ];
 
   # enable powertop auto tuning on startup
